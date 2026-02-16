@@ -1,0 +1,42 @@
+{
+  "name": "rydrvault-mobile",
+  "version": "1.0.0",
+  "description": "RYDRVAULT mobile application with mobile number authentication",
+  "main": "index.js",
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "web": "webpack serve --mode development",
+    "web:build": "webpack --mode production",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@react-navigation/bottom-tabs": "^6.5.13",
+    "@react-navigation/native": "^6.1.10",
+    "@react-navigation/stack": "^6.3.20",
+    "axios": "^1.6.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-native": "^0.73.11",
+    "react-native-gesture-handler": "^2.14.2",
+    "react-native-safe-area-context": "^4.8.2",
+    "react-native-screens": "^3.27.0",
+    "react-native-vector-icons": "^10.0.2",
+    "react-native-web": "^0.21.2",
+    "zustand": "^4.4.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.0",
+    "@babel/preset-react": "^7.28.5",
+    "@types/react-native": "^0.73.0",
+    "babel-jest": "^29.7.0",
+    "babel-loader": "^10.0.0",
+    "html-webpack-plugin": "^5.6.6",
+    "jest": "^29.7.0",
+    "webpack": "^5.105.2",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.3"
+  }
+}
